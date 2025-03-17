@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "reddit-wrap" : {
+            "command" : "<uv_path>",
+            "args" : [
+                "--directory",
+                "<directory_to_main.py>",
+                "run",
+                "main.py"
+            ]
+        }
+    }
+}
