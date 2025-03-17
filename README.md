@@ -13,7 +13,7 @@ A specialized MCP (Machine Control Protocol) server that analyzes Reddit user da
 
 - Python 3.8 or higher
 - UV package manager (recommended) or pip
-- Reddit API credentials
+- RAPID API credentials
 
 ## Setup
 
