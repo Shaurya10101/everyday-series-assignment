@@ -30,7 +30,7 @@ cd everyday-series-assignment
 
 3. Create and activate virtual environment
 ```bash
-uv venv
+uv init
 source .venv/bin/activate  # On Unix/macOS
 # OR
 .venv\Scripts\activate  # On Windows
