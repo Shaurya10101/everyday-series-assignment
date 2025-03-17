@@ -38,7 +38,7 @@ source .venv/bin/activate  # On Unix/macOS
 
 4. Install dependencies
 ```bash
-uv pip install -r requirements.txt
+uv add requirements.txt
 ```
 
 5. Configure RAPID_API_KEY 
