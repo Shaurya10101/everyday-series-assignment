@@ -147,10 +147,10 @@ async def get_posts_subreddit(subreddit: str) -> dict[str, Any]:
             return {"error": f"An error occurred: {str(e)}"}
             
 @mcp.tool()
-async def get_comments_post(post_id: str) -> dict[str, Any]:
+async def get_comments_post(post_link: str) -> dict[str, Any]:
     """Fetch Comments from a Post"""
     params = {
-        "post_id": post_id,
+        "post": post_link,
     }
     headers = {
         "x-rapidapi-key": RAPIDAPI_KEY,
