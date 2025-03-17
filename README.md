@@ -1,6 +1,6 @@
 # Reddit Summary MCP Server
 
-A specialized MCP (Machine Control Protocol) server that analyzes Reddit user data to generate insightful summaries from posts and comments.
+A specialized MCP (Model Control Protocol) server that analyzes Reddit user data to generate insightful summaries from posts and comments.
 
 ## Features
 
